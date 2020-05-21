@@ -1,5 +1,5 @@
 .home {
-    background-color: var(--pink);
+    background-color: var(--gold);
     width: 100vw;
     height: 100vh;
     grid-column: page-start / col-end 6;
@@ -29,7 +29,7 @@
         .item {
             @include flex-center;
             &--blue {
-                background-color: var(--blue);
+                background-color: var(--pink);
             }
             &--transform-left {
                 transform: translateX(-50%);
@@ -44,7 +44,7 @@
         width: 100%;
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-        background-color: var(--blue);
+        background-color: var(--gold);
         overflow: scroll;
 
         .item {
