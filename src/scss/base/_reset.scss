@@ -1,3 +1,21 @@
+:root {
+    --teal: #27c0ca;
+    --blue: #1175b7;
+    --purple: #ac72d6;
+    --pink: #e9aee2;
+    --orange: #f3604b;
+    --brown: #d19563;
+    --light-brown: #b7a37e;
+    --gold: #ddb54f;
+    --yellow: #cfca57;
+    --green: #7aab5b;
+    --white: #fafafa;
+    --grey1: #eeeeee;
+    --grey2: #8b8b8b;
+    --grey3: #b9b9b9;
+    --black: #232323;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,11 +27,15 @@ html {
     padding: 0;
     box-sizing: border-box;
     font-size: 62.5%;
-    background-color: $black;
     outline: none;
 }
 
 ::selection {
-    background-color: $black;
-    color: $white;
+    background-color: var(--pink);
+    color: var(--blue);
+}
+a:focus {
+    background-color: var(--pink);
+    color: var(--blue);
+    padding: 1rem;
 }

@@ -1,16 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,700");
 
 @font-face {
-    src: url(../assets/fonts/Agrandir-regular.otf);
-    font-family: "Agrandir";
-    font-weight: 400;
+    // src: url(../assets/fonts/___FILL___);
+    // font-family: "";
+    // font-weight: 400;
 }
 
 body {
-    font-family: "Agrandir", sans-serif;
+    font-family: "work sans", sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
-    color: $dark-text;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: subpixel-antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -40,6 +39,11 @@ h6 {
     font-size: $p-small;
 }
 
+a {
+    color: var(--black);
+    text-decoration: none;
+    text-transform: uppercase;
+}
 //UTILITY TYPOGRAPHY
 .paragraph {
     font-weight: 400;
@@ -50,7 +54,7 @@ h6 {
         font-size: 1.5rem;
     }
     &__grey {
-        color: $light-text;
+        color: var(--gray3);
     }
 }
 
