@@ -1,0 +1,85 @@
+[
+  {
+    "About" : "CINEOLA is a platform for Latin American stories, connecting audiences with diverse representations of Latinoamérica on film.
+              The festival is co-presented by the Bay Area Video Coalition and raises funds for CARECEN SF, a non-profit responding to the needs, rights and aspirations of Latino, immigrant, and under-resourced families in the San Francisco Bay Area.
+              Proceeds from the 2020 online edition will also support local venues The Roxie and Artists’ Television Access during the COVID-19 pandemic."
+  },
+  {
+    "Title": "Block 1 - RECORDAR (72 mins)",
+  },
+  {
+    "Title": "VERDE OLIVO",
+    "English Title": "",
+    "Country": "Cuba",
+    "Year": 2017,
+    "Duration (Mins)": 12,
+    "Director": "Celina Escher"
+  },
+  {
+    "Title": "TUYUKU",
+    "English Title": "",
+    "Country": "Mexico",
+    "Year": 2019,
+    "Duration (Mins)": 18,
+    "Director": "Nicolás Rojas Sánchez"
+  },
+  {
+    "Title": "VICTORIA",
+    "English Title": "",
+    "Country": "Honduras",
+    "Year": 2019,
+    "Duration (Mins)": 9,
+    "Director": "William Reyes"
+  },
+  {
+    "Title": "LA BALA DE SANDOVAL",
+    "English Title": "SANDOVAL'S BULLET",
+    "Country": "Ecuador",
+    "Year": 2019,
+    "Duration (Mins)": 17,
+    "Director": "Jean-Jacques Martinod"
+  },
+  {
+    "Title": "LUMBALÚ",
+    "English Title": "",
+    "Country": "Colombia",
+    "Year": 2018,
+    "Duration (Mins)": 16,
+    "Director": "Sara Lucia Betancur Montoya"
+  },
+  {
+    "Title": "Block 2 - RESISTIR (81 mins)",
+  },
+  {
+    "Title": "LA PESCA",
+    "English Title": "THE CATCH",
+    "Country": "Colombia",
+    "Year": 2017,
+    "Duration (Mins)": 21,
+    "Director": "Fernando López Escriva, Pablo Alvarez Mesa"
+  },
+  {
+    "Title": "THE BREADMAKER",
+    "English Title": "THE BREADMAKER",
+    "Country": "Venezuela",
+    "Year": 2019,
+    "Duration (Mins)": 21,
+    "Director": "Susy Peña"
+  },
+  {
+    "Title": "ESTAMOS, QUE ES GANANCIA",
+    "English Title": "HERE, WE ARE",
+    "Country": "Mexico",
+    "Year": 2018,
+    "Duration (Mins)": 13,
+    "Director": "Viviana Zuñiga"
+  },
+  {
+    "Title": "HAZTE SENTIR",
+    "English Title": "TO BE HEARD",
+    "Country": "Brazil",
+    "Year": 2019,
+    "Duration (Mins)": 26,
+    "Director": "Dieter Deswarte and the residents of Casa Miga"
+  }
+]
