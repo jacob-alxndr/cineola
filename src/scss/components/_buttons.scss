@@ -1,29 +1,21 @@
 .btn {
-    font-weight: 100;
-    padding: 1rem 1.5rem;
-    background-color: var(--white);
+    font-weight: 300;
+    font-size: $h6;
+    font-family: "Grotzec-light", sans-serif;
+    padding: 0.5rem 2rem;
     cursor: pointer;
+    height: 100%;
+    border: none;
+    border-left: 2px solid var(--black);
+    background-color: var(--black);
+    color: var(--color-primary);
 
-    &--main {
-        border-radius: 5rem;
-        position: relative;
-        background-color: var(--white);
-        color: var(--white);
-        border: 2px solid transparent;
-        padding: 1.3rem 3.3rem;
-        font-size: $h4;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        animation: fadeIn 1.8s ease-in-out;
-        transition: all 0.5s;
-
-        &:hover {
-        }
-        &:active {
-        }
-        &:focus {
-        }
-        &:disabled {
-        }
+    &:hover {
+    }
+    &:active {
+    }
+    &:focus {
+    }
+    &:disabled {
     }
 }

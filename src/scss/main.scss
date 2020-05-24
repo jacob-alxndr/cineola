@@ -13,15 +13,14 @@
 
 // COMPONENTS
 @import "components/buttons";
-@import "components/card";
+@import "components/form";
 @import "components/grid";
 
 // LAYOUT
-@import "layout/footer";
-@import "layout/hero";
-@import "layout/header";
-@import "layout/menu";
-@import "layout/navigation";
+
+@import "layout/main";
+@import "layout/sub";
+@import "layout/links";
 
 // PAGES
 @import "pages/home";

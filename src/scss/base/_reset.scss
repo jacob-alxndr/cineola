@@ -1,4 +1,6 @@
 :root {
+    --color-primary: #7aab5b;
+    --color-secondary: #e9aee2;
     --teal: #27c0ca;
     --blue: #1175b7;
     --purple: #ac72d6;
@@ -31,11 +33,10 @@ html {
 }
 
 ::selection {
-    background-color: var(--pink);
-    color: var(--blue);
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
 }
 a:focus {
     background-color: var(--pink);
-    color: var(--blue);
-    padding: 1rem;
+    color: var(--color-primary);
 }

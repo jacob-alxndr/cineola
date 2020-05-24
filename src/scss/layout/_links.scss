@@ -1,0 +1,15 @@
+.links {
+    width: 100%;
+    &__list {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+    &__item {
+        &:not(last-child) {
+            // margin-right: $margin-medium;
+        }
+        a {
+        }
+    }
+}

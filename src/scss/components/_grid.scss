@@ -2,5 +2,5 @@
     width: 100vw;
     display: grid;
     grid-template-columns: [page-start] 1fr [content] 1fr repeat(12, [col-start] 1fr [col-end]) [content-end] 1fr [page-end];
-    gap: 1rem;
+    // gap: 1rem;
 }

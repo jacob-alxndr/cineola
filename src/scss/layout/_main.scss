@@ -1,0 +1,40 @@
+.home__main {
+    display: grid;
+
+    grid-template-columns: repeat(2, minmax(24rem, 1fr));
+    grid-template-rows: repeat(3, minmax(24rem, 1fr));
+    justify-self: center;
+    align-self: center;
+    @include respond(desktop) {
+        grid-template-columns: repeat(2, minmax(32rem, 1fr));
+        grid-template-rows: repeat(3, minmax(32rem, 1fr));
+    }
+    @include respond(tab-port1) {
+        min-width: 100vw;
+        height: 100%;
+    }
+
+    .item {
+        @include flex-center;
+
+        // flex-direction: column;
+        @include respond(tab-port1) {
+            height: 50vw;
+        }
+        &--color-secondary {
+            background-color: var(--color-secondary);
+        }
+        &--transform-left {
+            transform: translateX(-50%);
+        }
+        &--transform-right {
+            transform: translateX(50%);
+        }
+        &--transform-left,
+        &--transform-right {
+            @include respond(tab-land) {
+                transform: translateX(0);
+            }
+        }
+    }
+}
