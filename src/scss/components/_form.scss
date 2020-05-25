@@ -5,12 +5,18 @@
     &__group {
         display: flex;
         height: 6rem;
-
+        @include respond(phone) {
+            display: block;
+            height: auto;
+            & > * {
+                width: 100%;
+            }
+        }
         input {
             height: 100%;
             font-size: $h6;
             font-family: "Grotzec-light", sans-serif;
-            padding: 0.5rem 2rem;
+            padding: $padding-xxs $padding-small;
             border: none;
             border: 1px solid var(--black);
             background-color: transparent;

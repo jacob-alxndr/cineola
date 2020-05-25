@@ -1,6 +1,5 @@
 .home__main {
     display: grid;
-
     grid-template-columns: repeat(2, minmax(24rem, 1fr));
     grid-template-rows: repeat(3, minmax(24rem, 1fr));
     justify-self: center;
@@ -13,14 +12,13 @@
         min-width: 100vw;
         height: 100%;
     }
+    @include respond(phone) {
+        grid-template-columns: repeat(2, minmax(8rem, 1fr));
+    }
 
     .item {
         @include flex-center;
 
-        // flex-direction: column;
-        @include respond(tab-port1) {
-            height: 50vw;
-        }
         &--color-secondary {
             background-color: var(--color-secondary);
         }

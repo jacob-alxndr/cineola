@@ -1,12 +1,10 @@
 .btn {
-    font-weight: 300;
     font-size: $h6;
     font-family: "Grotzec-light", sans-serif;
-    padding: 0.5rem 2rem;
+    padding: $padding-xxs $padding-small;
     cursor: pointer;
     height: 100%;
     border: none;
-    border-left: 2px solid var(--black);
     background-color: var(--black);
     color: var(--color-primary);
 

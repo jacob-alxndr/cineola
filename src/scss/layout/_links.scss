@@ -4,6 +4,12 @@
         display: flex;
         list-style: none;
         justify-content: space-around;
+
+        @include respond(tab-land) {
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+        }
     }
     &__item {
         &:not(last-child) {
