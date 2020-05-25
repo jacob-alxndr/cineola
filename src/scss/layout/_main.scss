@@ -12,6 +12,7 @@
         min-width: 100vw;
         height: 100%;
     }
+
     @include respond(phone) {
         grid-template-columns: repeat(2, minmax(8rem, 1fr));
     }
