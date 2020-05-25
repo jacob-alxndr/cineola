@@ -8,6 +8,7 @@
     .item {
         background-color: var(--color-secondary);
         width: 100%;
+        // animation: fadeIn 1.432545645s ease-in;
         &:nth-child(2) {
             background-color: var(--color-primary);
         }
