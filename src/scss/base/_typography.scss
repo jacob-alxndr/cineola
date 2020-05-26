@@ -80,7 +80,16 @@ h6 {
     font-size: $h6;
 }
 p {
-    font-size: $h6;
+    // font-size: $h6;
+    font-size: 14px;
+    line-height: 17.5px;
+    padding-top: 12px;
+}
+
+.bold-uppercase {
+  text-transform: uppercase;
+  font-family: "Grotzec-regular";
+  font-weight: 400;
 }
 
 a {
@@ -99,8 +108,7 @@ a:hover {
 //UTILITY TYPOGRAPHY
 .paragraph {
     font-weight: 400;
-    font-size: $h6;
-    line-height: 1.3;
+    font-size: 14px;
 
     &__small {
         font-size: 1.5rem;
@@ -108,6 +116,11 @@ a:hover {
     &__grey {
         color: var(--gray3);
     }
+}
+
+
+.credits {
+  text-decoration: none;
 }
 
 .small-uppercase {
