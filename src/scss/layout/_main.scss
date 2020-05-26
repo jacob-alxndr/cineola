@@ -1,12 +1,14 @@
 .home__main {
+    color: var(--black);
+    transform: translateX(-7.5%);
     display: grid;
-    grid-template-columns: repeat(2, minmax(24rem, 1fr));
-    grid-template-rows: repeat(3, minmax(24rem, 1fr));
+    grid-template-columns: repeat(2, minmax(215px, 215px));
+    grid-template-rows: repeat(3, minmax(200px, 200px));
     justify-self: center;
     align-self: center;
     @include respond(desktop) {
-        grid-template-columns: repeat(2, minmax(32rem, 1fr));
-        grid-template-rows: repeat(3, minmax(32rem, 1fr));
+        grid-template-columns: repeat(2, minmax(240px, 1fr));
+        grid-template-rows: repeat(3, minmax(240px, 1fr));
     }
     @include respond(tab-port1) {
         min-width: 100vw;
@@ -15,6 +17,12 @@
 
     @include respond(phone) {
         grid-template-columns: repeat(2, minmax(8rem, 1fr));
+    }
+
+    .logo-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
 
     .item {
@@ -54,5 +62,12 @@
                 }
             }
         }
+    }
+
+    .logo {
+      width: 210px;
+      padding-top: 5px;
+      // background-color: red;
+      // height: 125.96px;
     }
 }

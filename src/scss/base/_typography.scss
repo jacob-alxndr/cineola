@@ -51,7 +51,7 @@ h2 {
 }
 
 h3 {
-    font-size: $h3;
+    font-size: 50px;
     font-family: "Nayarit", sans-serif;
     font-weight: 100;
     @include respond(tab-land) {
@@ -61,7 +61,8 @@ h3 {
 
 h4 {
     font-family: "Nayarit", sans-serif;
-    font-size: $h4;
+    font-size: 45px;
+    line-height: 45px;
     font-weight: 100;
     // font-weight: 100;
     @include respond(tab-land) {
@@ -70,8 +71,9 @@ h4 {
 }
 
 h5 {
-    font-size: $h5;
+    font-size: 14px;
     font-weight: 100;
+    line-height: 17.5px;
 }
 
 h6 {
@@ -83,12 +85,16 @@ p {
 
 a {
     color: var(--black);
-    font-size: $a;
+    font-size: 14px;
     text-decoration: none;
     text-transform: uppercase;
     @include respond(phone) {
         font-size: $h6;
     }
+}
+
+a:hover {
+  text-decoration: underline;
 }
 //UTILITY TYPOGRAPHY
 .paragraph {

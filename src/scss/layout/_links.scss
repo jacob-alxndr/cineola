@@ -3,7 +3,7 @@
     &__list {
         display: flex;
         list-style: none;
-        justify-content: space-around;
+        justify-content: space-evenly;
 
         @include respond(tab-land) {
             flex-direction: column;
