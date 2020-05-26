@@ -1,0 +1,25 @@
+.form {
+    height: 100%;
+    width: 80%;
+    @include flex-center;
+    &__group {
+        display: flex;
+        height: 6rem;
+        @include respond(phone) {
+            display: block;
+            height: auto;
+            & > * {
+                width: 100%;
+            }
+        }
+        input {
+            height: 100%;
+            font-size: $h6;
+            font-family: "Grotzec-light", sans-serif;
+            padding: $padding-xxs $padding-small;
+            border: none;
+            border: 1px solid var(--black);
+            background-color: transparent;
+        }
+    }
+}

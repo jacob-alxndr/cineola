@@ -1,29 +1,24 @@
 .btn {
-    font-weight: 100;
-    padding: 1rem 1.5rem;
-    background-color: var(--white);
+    font-size: $h6;
+    font-family: "Grotzec-light", sans-serif;
+    padding: $padding-xxs $padding-small;
     cursor: pointer;
+    height: 100%;
+    border: none;
+    background-color: var(--black);
+    color: var(--color-primary);
+    transition: background-color 0.3s ease;
 
-    &--main {
-        border-radius: 5rem;
-        position: relative;
-        background-color: var(--white);
-        color: var(--white);
-        border: 2px solid transparent;
-        padding: 1.3rem 3.3rem;
-        font-size: $h4;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        animation: fadeIn 1.8s ease-in-out;
-        transition: all 0.5s;
-
-        &:hover {
-        }
-        &:active {
-        }
-        &:focus {
-        }
-        &:disabled {
-        }
+    &:hover {
+        background-color: var(--black2);
+    }
+    &:active {
+        background-color: var(--black3);
+    }
+    &:focus {
+        color: var(--black);
+        background-color: var(--color-secondary);
+    }
+    &:disabled {
     }
 }
