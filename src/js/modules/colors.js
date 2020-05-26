@@ -10,4 +10,5 @@ function changeColor(){
     root.style.setProperty('--color-primary', `#${color1}`)
     root.style.setProperty('--color-secondary', `#${color2}`)
 }
+// 3. Events
 window.addEventListener('load', changeColor)
