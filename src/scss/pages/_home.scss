@@ -3,11 +3,24 @@
     width: 100vw;
     height: 100vh;
 
+    @include respond(tab-land) {
+        height: 100%;
+    }
+
     & > *:nth-child(1) {
         grid-column: page-start / col-end 8;
+
+        @include respond(tab-land) {
+            grid-column: page-start / page-end;
+        }
     }
+
     & > *:nth-child(2) {
         grid-column: col-start 9 / page-end;
+
+        @include respond(tab-land) {
+            grid-column: page-start / page-end;
+        }
     }
 
     &__container {

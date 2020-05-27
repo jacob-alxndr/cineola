@@ -1,9 +1,9 @@
-@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,700);
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
+
 @keyframes fadeIn {
   0% {
     opacity: 0; }
@@ -72,62 +72,30 @@ a:focus {
 
 body {
   font-family: "Grotzec-light", sans-serif;
-  font-weight: 100;
-  font-size: 1.6rem;
-  line-height: 1.5;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-h1 {
-  font-family: "Nayarit", sans-serif;
-  font-size: 10.4rem;
-  font-weight: 100;
-  line-height: 10.4rem; }
-  @media only screen and (max-width: 75em) {
-    h1 {
-      font-size: 9.6rem; } }
-  @media only screen and (max-width: 37.5em) {
-    h1 {
-      font-size: 4.8rem; } }
-
-h2 {
-  font-family: "Nayarit", sans-serif;
-  font-size: 9.6rem;
-  font-weight: 100; }
-  @media only screen and (max-width: 75em) {
-    h2 {
-      font-size: 4.8rem; } }
-
 h3 {
-  font-size: 50px;
+  font-size: 3.95vw;
   font-family: "Nayarit", sans-serif;
   font-weight: 100; }
-  @media only screen and (max-width: 75em) {
-    h3 {
-      font-size: 3.2rem; } }
 
 h4 {
   font-family: "Nayarit", sans-serif;
-  font-size: 45px;
-  line-height: 45px;
+  font-size: 3.5vw;
+  line-height: 3.5vw;
   font-weight: 100; }
-  @media only screen and (max-width: 75em) {
-    h4 {
-      font-size: 2.4rem; } }
 
 h5 {
-  font-size: 14px;
+  font-size: 1.09375vw;
   font-weight: 100;
-  line-height: 17.5px; }
-
-h6 {
-  font-size: 1.8rem; }
+  line-height: 1.328125vw; }
 
 p {
-  font-size: 14px;
-  line-height: 17.5px;
-  padding-top: 12px; }
+  font-size: 1.09375vw;
+  line-height: 1.328125vw;
+  padding-top: 0.9375vw; }
 
 .bold-uppercase {
   text-transform: uppercase;
@@ -136,31 +104,18 @@ p {
 
 a {
   color: var(--black);
-  font-size: 14px;
+  font-size: 1.09375vw;
   text-decoration: none;
   text-transform: uppercase; }
-  @media only screen and (max-width: 37.5em) {
-    a {
-      font-size: 1.8rem; } }
 
 a:hover {
   text-decoration: underline; }
 
 .paragraph {
-  font-weight: 400;
-  font-size: 14px; }
-  .paragraph__small {
-    font-size: 1.5rem; }
-  .paragraph__grey {
-    color: var(--gray3); }
+  font-size: 1.09375vw; }
 
 .credits {
   text-decoration: none; }
-
-.small-uppercase {
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  letter-spacing: 2px; }
 
 .u-container {
   max-width: 120rem;
@@ -175,10 +130,10 @@ a:hover {
   text-align: right; }
 
 .btn {
-  width: 73px;
-  font-size: 14px;
+  width: 5.703125vw;
+  font-size: 1.09375vw;
   font-family: "Grotzec-light", sans-serif;
-  padding: 12px;
+  padding: 0.9375vw;
   cursor: pointer;
   height: 100%;
   border: none;
@@ -195,18 +150,12 @@ a:hover {
   align-items: center; }
   .form__group {
     display: flex;
-    height: 50px; }
-    @media only screen and (max-width: 37.5em) {
-      .form__group {
-        display: block;
-        height: auto; }
-        .form__group > * {
-          width: 100%; } }
+    height: 3.90625vw; }
     .form__group input {
-      width: 146px;
-      font-size: 14px;
+      width: 11.40625vw;
+      font-size: 1.09375vw;
       font-family: "Grotzec-light", sans-serif;
-      padding: 12px;
+      padding: 0.9375vw;
       border: none;
       outline: none;
       border: 1px solid var(--black);
@@ -236,17 +185,15 @@ a:hover {
   color: var(--black);
   transform: translateX(-7.5%);
   display: grid;
-  grid-template-columns: repeat(2, 16.5vw);
+  grid-template-columns: repeat(2, 16.75vw);
   grid-template-rows: repeat(3, 15vw);
   justify-self: center;
   align-self: center; }
-  @media only screen and (max-width: 60em) {
+  @media only screen and (max-width: 75em) {
     .home__main {
-      min-width: 100vw;
-      height: 100%; } }
-  @media only screen and (max-width: 37.5em) {
-    .home__main {
-      grid-template-columns: repeat(2, minmax(8rem, 1fr)); } }
+      grid-template-columns: repeat(2, 50vw);
+      grid-template-rows: repeat(3, 47.5vw);
+      transform: translateX(0); } }
   .home__main .logo-item {
     display: flex;
     justify-content: center;
@@ -273,27 +220,27 @@ a:hover {
       .home__main .item--transform-left, .home__main .item--transform-right {
         transform: translateX(0); } }
     .home__main .item .aboutText {
-      padding: 0px 12px 12px 12px;
+      padding: 0px 0.9375vw 0.9375vw 0.9375vw;
       overflow-y: scroll;
       width: 100%;
       height: 100%;
       display: none; }
-      @media only screen and (max-width: 37.5em) {
-        .home__main .item .aboutText {
-          max-width: 100%; } }
     .home__main .item .aboutText::-webkit-scrollbar {
       display: none; }
   .home__main .logo {
-    width: 210px;
-    padding-top: 5px; }
+    width: 16.5vw; }
 
 .home__sidebar {
   color: var(--black);
   display: grid;
   grid-template-columns: repeat(2, 16.5vw);
   grid-auto-rows: 15vw;
-  overflow-y: scroll;
   justify-content: end; }
+  @media only screen and (max-width: 75em) {
+    .home__sidebar {
+      grid-template-columns: repeat(2, 50vw);
+      grid-auto-rows: 47.5vw;
+      transform: translateX(0); } }
   .home__sidebar .item-blank {
     background-color: var(--color-primary); }
   .home__sidebar .item {
@@ -304,7 +251,7 @@ a:hover {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      padding: 7.5px 15px; }
+      padding: 0.546875vw 1.171875vw; }
       .home__sidebar .item .heading .country {
         font-family: "Grotzec-regular", sans-serif; }
     .home__sidebar .item .heading-block-title {
@@ -326,29 +273,27 @@ a:hover {
     display: flex;
     list-style: none;
     justify-content: space-evenly; }
-    @media only screen and (max-width: 75em) {
-      .links__list {
-        flex-direction: column;
-        justify-items: center;
-        align-items: center; } }
 
 .home {
   background-color: var(--color-primary);
   width: 100vw;
   height: 100vh; }
-  @media only screen and (max-width: 60em) {
+  @media only screen and (max-width: 75em) {
     .home {
       height: 100%; } }
   .home > *:nth-child(1) {
     grid-column: page-start / col-end 8; }
+    @media only screen and (max-width: 75em) {
+      .home > *:nth-child(1) {
+        grid-column: page-start / page-end; } }
   .home > *:nth-child(2) {
     grid-column: col-start 9 / page-end; }
+    @media only screen and (max-width: 75em) {
+      .home > *:nth-child(2) {
+        grid-column: page-start / page-end; } }
   .home__container {
     overflow: scroll;
     display: grid;
     width: 100%;
     height: 100%; }
-    @media only screen and (max-width: 60em) {
-      .home__container {
-        overflow: visible; } }
 

@@ -3,8 +3,13 @@
     display: grid;
     grid-template-columns: repeat(2, 16.5vw);
     grid-auto-rows: 15vw;
-    overflow-y: scroll;
     justify-content: end;
+
+    @include respond(tab-land) {
+      grid-template-columns: repeat(2, 50vw);
+      grid-auto-rows: 47.5vw;
+      transform: translateX(0);
+    }
 
     .item-blank {
       background-color: var(--color-primary);
@@ -20,7 +25,7 @@
             flex-direction: column;
             justify-content: space-between;
             padding: 0.546875vw 1.171875vw;
-                        
+
             .country {
               font-family: "Grotzec-regular", sans-serif;
             }
