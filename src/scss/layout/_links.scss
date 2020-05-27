@@ -4,18 +4,5 @@
         display: flex;
         list-style: none;
         justify-content: space-evenly;
-
-        @include respond(tab-land) {
-            flex-direction: column;
-            justify-items: center;
-            align-items: center;
-        }
-    }
-    &__item {
-        &:not(last-child) {
-            // margin-right: $margin-medium;
-        }
-        a {
-        }
     }
 }

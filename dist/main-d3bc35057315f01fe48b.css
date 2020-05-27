@@ -236,8 +236,8 @@ a:hover {
   color: var(--black);
   transform: translateX(-7.5%);
   display: grid;
-  grid-template-columns: repeat(2, minmax(215px, 215px));
-  grid-template-rows: repeat(3, minmax(200px, 200px));
+  grid-template-columns: repeat(2, 16.5vw);
+  grid-template-rows: repeat(3, 15vw);
   justify-self: center;
   align-self: center; }
   @media only screen and (max-width: 60em) {
@@ -290,8 +290,8 @@ a:hover {
 .home__sidebar {
   color: var(--black);
   display: grid;
-  grid-template-columns: repeat(2, 215px);
-  grid-auto-rows: 200px;
+  grid-template-columns: repeat(2, 16.5vw);
+  grid-auto-rows: 15vw;
   overflow-y: scroll;
   justify-content: end; }
   .home__sidebar .item-blank {

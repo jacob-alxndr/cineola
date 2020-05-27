@@ -1,29 +1,14 @@
 .btn {
-    width: 73px;
-    font-size: 14px;
+    width: 5.703125vw;
+    font-size: 1.09375vw;
     font-family: "Grotzec-light", sans-serif;
-    // padding: $padding-xxs $padding-small;
-    padding: 12px;
+    padding: 0.9375vw;
     cursor: pointer;
     height: 100%;
     border: none;
     background-color: var(--black);
     color: var(--color-primary);
     outline: none;
-    // transition: background-color 0.3s ease;
-
-    // &:hover {
-    //     background-color: var(--black2);
-    // }
-    // &:active {
-    //     background-color: var(--black3);
-    // }
-    // &:focus {
-    //     color: var(--black);
-    //     background-color: var(--color-secondary);
-    // }
-    // &:disabled {
-    // }
 }
 
 .btn:hover {
