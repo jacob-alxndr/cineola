@@ -148,7 +148,7 @@ function changeColor() {
 
 window.setInterval(function () {
   changeColor();
-}, 5000);
+}, 10000);
 window.addEventListener('load', changeColor);
 
 /***/ }),

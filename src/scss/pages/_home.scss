@@ -10,27 +10,27 @@
     & > *:nth-child(1) {
         // padding: 10rem;
         grid-column: page-start / col-end 8;
-        @include respond(desktop) {
-            grid-column: page-start / col-end 10;
-        }
-        @include respond(tab-land2) {
-            grid-column: page-start / col-end 7;
-        }
-        @include respond(tab-port1) {
-            grid-column: page-start / page-end;
-        }
+        // @include respond(desktop) {
+        //     grid-column: page-start / col-end 10;
+        // }
+        // @include respond(tab-land2) {
+        //     grid-column: page-start / col-end 7;
+        // }
+        // @include respond(tab-port1) {
+        //     grid-column: page-start / page-end;
+        // }
     }
     & > *:nth-child(2) {
         grid-column: col-start 9 / page-end;
-        @include respond(desktop) {
-            grid-column: col-start 11 / page-end;
-        }
-        @include respond(tab-land2) {
-            grid-column: col-start 8 / page-end;
-        }
-        @include respond(tab-port1) {
-            grid-column: page-start / page-end;
-        }
+        // @include respond(desktop) {
+        //     grid-column: col-start 12 / page-end;
+        // }
+        // @include respond(tab-land2) {
+        //     grid-column: col-start 8 / page-end;
+        // }
+        // @include respond(tab-port1) {
+        //     grid-column: page-start / page-end;
+        // }
     }
 
     &__container {

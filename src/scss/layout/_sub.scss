@@ -2,9 +2,10 @@
     color: var(--black);
     display: grid;
     grid-template-columns: repeat(2, 215px);
-    grid-auto-rows: minmax(200px,200px);
+    grid-auto-rows: 200px;
     overflow-y: scroll;
-    background-color: var(--color-secondary);
+    justify-content: end;
+    // background-color: var(--color-secondary);
 
     .item-blank {
       background-color: var(--color-primary);
@@ -12,7 +13,6 @@
 
     .item {
         background-color: var(--color-secondary);
-
         width: 100%;
         // animation: fadeIn 1.432545645s ease-in;
 
