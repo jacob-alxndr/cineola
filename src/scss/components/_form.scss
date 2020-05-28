@@ -1,17 +1,30 @@
 .form {
     @include flex-center;
-    &__group {
-        display: flex;
-        height: 3.90625vw;
-        input {
-            width: 11.40625vw;
-            font-size: 1.09375vw;
-            font-family: "Grotzec-light", sans-serif;
-            padding: 0.9375vw;
-            border: none;
-            outline: none;
-            border: 1px solid var(--black);
-            background-color: transparent;
+    // height: 100%;
+    @include respond(tab-land) {
+      flex-direction: column;
+
+    }
+
+    input {
+        width: 11.40625vw;
+        font-size: 1.09375vw;
+        font-family: "Grotzec-light", sans-serif;
+        padding: 0.9375vw;
+        border: 1px solid var(--black);
+        outline: none;
+        background-color: transparent;
+
+        @include respond(tab-land) {
+          border-radius: 0px;
+          -webkit-border-radius: 0px;
+          width: 40vw;
+          font-size: 3.5vw;
+          padding: 2vw;
+          
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
         }
     }
 }

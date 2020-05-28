@@ -3,12 +3,18 @@
     font-size: 1.09375vw;
     font-family: "Grotzec-light", sans-serif;
     padding: 0.9375vw;
+    border: 1px solid var(--black);
     cursor: pointer;
-    height: 100%;
-    border: none;
+    // height: 100%;
     background-color: var(--black);
     color: var(--color-primary);
     outline: none;
+
+    @include respond(tab-land) {
+      width: 100%;
+      font-size: 3.5vw;
+      padding: 2vw;
+    }
 }
 
 .btn:hover {

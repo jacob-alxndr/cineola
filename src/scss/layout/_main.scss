@@ -21,6 +21,10 @@
 
     .about-item:hover {
       background-color: var(--color-primary);
+      @include respond(tab-land) {
+          background-color: var(--color-secondary);
+          border: none;
+      }
       border: 1px solid var(--black);
 
       .about {
@@ -51,12 +55,27 @@
            }
          }
 
+         .about {
+           @include respond(tab-land) {
+                 display: none;
+           }
+         }
+
         .aboutText {
             padding: 0px 0.9375vw 0.9375vw 0.9375vw;
+
+            @include respond(tab-land) {
+                  padding: 0vw 2.25vw 3.5vw 2.25vw;
+                  // hyphens: auto;
+            }
+
             overflow-y: scroll;
             width: 100%;
             height: 100%;
             display: none;
+            @include respond(tab-land) {
+                display: block;
+            }
         }
 
         .aboutText::-webkit-scrollbar {
@@ -67,5 +86,9 @@
 
     .logo {
       width: 16.5vw;
+
+      @include respond(tab-land) {
+        width: 40vw;
+      }
     }
 }
