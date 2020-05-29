@@ -51,10 +51,6 @@ html {
   background-color: var(--color-secondary);
   color: var(--color-primary); }
 
-a:focus {
-  background-color: var(--pink);
-  color: var(--color-primary); }
-
 @font-face {
   src: url(assets/fonts/GrotzecCondensed-Regular.otf);
   font-family: "Grotzec-regular";
@@ -185,14 +181,28 @@ a:hover {
     background-color: transparent; }
     @media only screen and (max-width: 1024px) {
       .form input {
-        border-radius: 0px;
-        -webkit-border-radius: 0px;
+        border-radius: 0;
+        -webkit-border-radius: 0;
         width: 40vw;
         font-size: 3.5vw;
         padding: 2vw;
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none; } }
+  .form input:-webkit-autofill,
+  .form input:-webkit-autofill:focus,
+  .form input:-webkit-autofill:hover,
+  .form select:-webkit-autofill,
+  .form select:-webkit-autofill:focus,
+  .form select:-webkit-autofill:hover,
+  .form textarea:-webkit-autofill,
+  .form textarea:-webkit-autofill:focus,
+  .form textarea:-webkit-autofill:hover {
+    border: 1px solid var(--black);
+    -webkit-text-fill-color: var(--black);
+    -webkit-box-shadow: 0 0 0 1000px var(--color-primary) inset;
+    -webkit-transition: background-color 5000s ease-in-out 0s;
+    transition: background-color 5000s ease-in-out 0s; }
 
 ::-webkit-input-placeholder {
   color: var(--black); }
@@ -267,7 +277,7 @@ a:hover {
       display: none; }
       @media only screen and (max-width: 1024px) {
         .home__main .item .aboutText {
-          padding: 0px 2.25vw 3.5vw 2.25vw; } }
+          padding: 0vw 2.25vw 3.5vw 2.25vw; } }
       @media only screen and (max-width: 1024px) {
         .home__main .item .aboutText {
           display: block; } }
